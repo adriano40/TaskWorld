@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [webDriver]" parallel="tests">
+  <test thread-count="5" name="Default test(failed)" parallel="tests">
+    <classes>
+      <class name="softwaretestingtutorialsautomation.Dependsonmethod">
+        <methods>
+          <include name="checkMail"/>
+          <include name="LogOut"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- softwaretestingtutorialsautomation.Dependsonmethod -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [webDriver] -->
